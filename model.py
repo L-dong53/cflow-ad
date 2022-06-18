@@ -10,6 +10,7 @@ import timm
 
 def positionalencoding2d(D, H, W):
     """
+    原始transformer的固定位置编码
     :param D: dimension of the model
     :param H: H of the positions
     :param W: W of the positions
@@ -20,9 +21,11 @@ def positionalencoding2d(D, H, W):
     P = torch.zeros(D, H, W)
     # Each dimension use half of D
     D = D // 2
-    div_term = torch.exp(torch.arange(0.0, D, 2) * -(math.log(1e4) / D))
+    div_term = torch.exp(torch.arange(0.0, D, 2) * -(math.log(1e4) / D))    # 在trasformer的编码上加了一层指数
     pos_w = torch.arange(0.0, W).unsqueeze(1)
     pos_h = torch.arange(0.0, H).unsqueeze(1)
+    # 前一半通道是按照w正弦规律余弦规律替换，后一半是h正弦余弦替换。同一通道的相邻元素按照sin或cos编码，而相邻通道同一元素则相差一个相位
+    # 编码的合理性?
     P[0:D:2, :, :]  = torch.sin(pos_w * div_term).transpose(0, 1).unsqueeze(1).repeat(1, H, 1)
     P[1:D:2, :, :]  = torch.cos(pos_w * div_term).transpose(0, 1).unsqueeze(1).repeat(1, H, 1)
     P[D::2,  :, :]  = torch.sin(pos_h * div_term).transpose(0, 1).unsqueeze(2).repeat(1, 1, W)
