@@ -66,10 +66,11 @@ def train_meta_epoch(c, epoch, loader, encoder, decoders, optimizer, pool_layers
                 assert FIB > 0, 'MAKE SURE WE HAVE ENOUGH FIBERS, otherwise decrease N or batch-size!'
                 for f in range(FIB):  # per-fiber processing
                     idx = torch.arange(f*N, (f+1)*N)
+                    # 在一个批量的所有hw位置随机取向量建模？
                     c_p = c_r[perm[idx]]  # NxP
                     e_p = e_r[perm[idx]]  # NxC
                     if 'cflow' in c.dec_arch:
-                        z, log_jac_det = decoder(e_p, [c_p,])
+                        z, log_jac_det = decoder(e_p, [c_p,])   # 在FrEIA库中会自动把建模向量与条件向量concat
                     else:
                         z, log_jac_det = decoder(e_p)
                     #
