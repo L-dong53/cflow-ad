@@ -66,7 +66,7 @@ def train_meta_epoch(c, epoch, loader, encoder, decoders, optimizer, pool_layers
                 assert FIB > 0, 'MAKE SURE WE HAVE ENOUGH FIBERS, otherwise decrease N or batch-size!'
                 for f in range(FIB):  # per-fiber processing
                     idx = torch.arange(f*N, (f+1)*N)
-                    # 在一个批量的所有hw位置随机取向量建模？
+                    # 在一个批量的所有hw位置随机取向量建模。对所有hw位置打乱顺序
                     c_p = c_r[perm[idx]]  # NxP
                     e_p = e_r[perm[idx]]  # NxC
                     if 'cflow' in c.dec_arch:
