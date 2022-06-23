@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import matplotlib
 from utils import *
 
-OUT_DIR = './viz/'
+OUT_DIR = './results/viz/'
 
 norm = matplotlib.colors.Normalize(vmin=0.0, vmax=255.0)
 cm = 1/2.54
