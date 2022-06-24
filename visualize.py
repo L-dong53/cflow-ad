@@ -33,7 +33,7 @@ def export_hist(c, gts, scores, threshold):
     fig.add_axes(ax)
     plt.hist([Y[Y_label==1], Y[Y_label==0]], 500, density=True, color=['r', 'g'], label=['ANO', 'TYP'], alpha=0.75, histtype='barstacked')
     image_file = os.path.join(image_dirs, 'hist_images_' + datetime.datetime.now().strftime("%Y-%m-%d-%H:%M:%S"))
-    fig.savefig(image_file, dpi=dpi, format='svg', bbox_inches = 'tight', pad_inches = 0.0)
+    fig.savefig(image_file, dpi=dpi, format='jpg', bbox_inches = 'tight', pad_inches = 0.0)
     plt.close()
 
 def export_groundtruth(c, test_img, gts):
@@ -59,7 +59,7 @@ def export_groundtruth(c, test_img, gts):
             fig.add_axes(ax)
             ax.imshow(gt_img)
             image_file = os.path.join(image_dirs, '{:08d}'.format(i))
-            fig.savefig(image_file, dpi=dpi, format='svg', bbox_inches = 'tight', pad_inches = 0.0)
+            fig.savefig(image_file, dpi=dpi, format='jpg', bbox_inches = 'tight', pad_inches = 0.0)
             plt.close()
 
 
@@ -97,7 +97,7 @@ def export_scores(c, test_img, scores, threshold):
             ax_img[0].imshow(score_map, cmap='jet', norm=norm, alpha=0.5, interpolation='none')
             ax_img[1].imshow(score_img)
             image_file = os.path.join(image_dirs, '{:08d}'.format(i))
-            fig_img.savefig(image_file, dpi=dpi, format='svg', bbox_inches = 'tight', pad_inches = 0.0)
+            fig_img.savefig(image_file, dpi=dpi, format='jpg', bbox_inches = 'tight', pad_inches = 0.0)
             plt.close()
 
 
@@ -144,5 +144,5 @@ def export_test_images(c, test_img, gts, scores, threshold):
             ax_img[1].imshow(score_map, cmap='jet', norm=norm)
             ax_img[2].imshow(score_img)
             image_file = os.path.join(image_dirs, '{:08d}'.format(i))
-            fig_img.savefig(image_file, dpi=dpi, format='svg', bbox_inches = 'tight', pad_inches = 0.0)
+            fig_img.savefig(image_file, dpi=dpi, format='jpg', bbox_inches = 'tight', pad_inches = 0.0)
             plt.close()
