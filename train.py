@@ -10,6 +10,8 @@ from model import load_decoder_arch, load_encoder_arch, positionalencoding2d, ac
 from utils import *
 from custom_datasets import *
 from custom_models import *
+import tqdm
+
 
 OUT_DIR = './viz/'
 
@@ -25,7 +27,7 @@ def train_meta_epoch(c, epoch, loader, encoder, decoders, optimizer, pool_layers
     adjust_learning_rate(c, optimizer, epoch)
     I = len(loader)
     iterator = iter(loader)
-    for sub_epoch in range(c.sub_epochs):
+    for sub_epoch in tqdm(range(c.sub_epochs), 'epoch:{}'.format(epoch)):
         train_loss = 0.0
         train_count = 0
         for i in range(I):
