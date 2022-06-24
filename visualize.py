@@ -5,6 +5,7 @@ from skimage import morphology
 from skimage.segmentation import mark_boundaries
 import matplotlib.pyplot as plt
 import matplotlib
+matplotlib.use('Agg')
 from utils import *
 
 OUT_DIR = './results/viz/'
