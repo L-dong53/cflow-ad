@@ -10,7 +10,7 @@ from model import load_decoder_arch, load_encoder_arch, positionalencoding2d, ac
 from utils import *
 from custom_datasets import *
 from custom_models import *
-import tqdm
+from tqdm import tqdm
 
 
 OUT_DIR = './viz/'
