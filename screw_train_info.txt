@@ -1,0 +1,407 @@
+
+train/test loader length 320 160
+train/test loader batches 10 5
+Train meta epoch: 0
+Epoch: 0.0       train loss: 0.3501, lr=0.000030
+Epoch: 0.1       train loss: 0.2174, lr=0.000041
+Epoch: 0.2       train loss: 0.1995, lr=0.000052
+Epoch: 0.3       train loss: 0.1932, lr=0.000063
+Epoch: 0.4       train loss: 0.1799, lr=0.000074
+Epoch: 0.5       train loss: 0.1717, lr=0.000085
+Epoch: 0.6       train loss: 0.1639, lr=0.000096
+Epoch: 0.7       train loss: 0.1545, lr=0.000107
+
+Compute loss and scores on test set:
+Epoch: 0         test_loss: 0.1780 and 5.45 fps
+Heights/Widths [64, 32, 16] [64, 32, 16]
+DET_AUROC:       last: 85.37     max: 85.37      epoch_max: 0
+SEG_AUROC:       last: 98.38     max: 98.38      epoch_max: 0
+Saving weights to mvtec_wide_resnet50_2_freia-cflow_pl3_cb8_inp512_run0_screw_20
+SEG_AUPRO:       last: 93.66     max: 93.66      epoch_max: 0
+Train meta epoch: 1
+Epoch: 1.0       train loss: 0.1471, lr=0.000118
+Epoch: 1.1       train loss: 0.1496, lr=0.000129
+Epoch: 1.2       train loss: 0.1359, lr=0.000140
+Epoch: 1.3       train loss: 0.1326, lr=0.000152
+Epoch: 1.4       train loss: 0.1258, lr=0.000163
+Epoch: 1.5       train loss: 0.1284, lr=0.000174
+Epoch: 1.6       train loss: 0.1200, lr=0.000185
+Epoch: 1.7       train loss: 0.1186, lr=0.000196
+
+Compute loss and scores on test set:
+Epoch: 1         test_loss: 0.1907 and 5.88 fps
+Heights/Widths [64, 32, 16] [64, 32, 16]
+DET_AUROC:       last: 87.35     max: 87.35      epoch_max: 1
+SEG_AUROC:       last: 98.37     max: 98.38      epoch_max: 0
+SEG_AUPRO:       last: 93.91     max: 93.91      epoch_max: 1
+Train meta epoch: 2
+Epoch: 2.0       train loss: 0.1158, lr=0.000197
+Epoch: 2.1       train loss: 0.1099, lr=0.000197
+Epoch: 2.2       train loss: 0.1063, lr=0.000197
+Epoch: 2.3       train loss: 0.1026, lr=0.000197
+Epoch: 2.4       train loss: 0.1018, lr=0.000197
+Epoch: 2.5       train loss: 0.1000, lr=0.000197
+Epoch: 2.6       train loss: 0.0954, lr=0.000197
+Epoch: 2.7       train loss: 0.0941, lr=0.000197
+
+Compute loss and scores on test set:
+Epoch: 2         test_loss: 0.1073 and 5.89 fps
+Heights/Widths [64, 32, 16] [64, 32, 16]
+DET_AUROC:       last: 91.95     max: 91.95      epoch_max: 2
+SEG_AUROC:       last: 98.82     max: 98.82      epoch_max: 2
+Saving weights to mvtec_wide_resnet50_2_freia-cflow_pl3_cb8_inp512_run0_screw_20
+SEG_AUPRO:       last: 95.19     max: 95.19      epoch_max: 2
+Train meta epoch: 3
+Epoch: 3.0       train loss: 0.0913, lr=0.000193
+Epoch: 3.1       train loss: 0.0904, lr=0.000193
+Epoch: 3.2       train loss: 0.0895, lr=0.000193
+Epoch: 3.3       train loss: 0.0861, lr=0.000193
+Epoch: 3.4       train loss: 0.0855, lr=0.000193
+Epoch: 3.5       train loss: 0.0841, lr=0.000193
+Epoch: 3.6       train loss: 0.0822, lr=0.000193
+Epoch: 3.7       train loss: 0.0807, lr=0.000193
+
+Compute loss and scores on test set:
+Epoch: 3         test_loss: 0.2004 and 5.87 fps
+Heights/Widths [64, 32, 16] [64, 32, 16]
+DET_AUROC:       last: 90.59     max: 91.95      epoch_max: 2
+SEG_AUROC:       last: 97.90     max: 98.82      epoch_max: 2
+SEG_AUPRO:       last: 92.24     max: 95.19      epoch_max: 2
+Train meta epoch: 4
+Epoch: 4.0       train loss: 0.0804, lr=0.000188
+Epoch: 4.1       train loss: 0.0788, lr=0.000188
+Epoch: 4.2       train loss: 0.0813, lr=0.000188
+Epoch: 4.3       train loss: 0.0763, lr=0.000188
+Epoch: 4.4       train loss: 0.0752, lr=0.000188
+Epoch: 4.5       train loss: 0.0752, lr=0.000188
+Epoch: 4.6       train loss: 0.0739, lr=0.000188
+Epoch: 4.7       train loss: 0.0738, lr=0.000188
+
+Compute loss and scores on test set:
+Epoch: 4         test_loss: 0.0890 and 5.88 fps
+Heights/Widths [64, 32, 16] [64, 32, 16]
+DET_AUROC:       last: 91.56     max: 91.95      epoch_max: 2
+SEG_AUROC:       last: 98.78     max: 98.82      epoch_max: 2
+SEG_AUPRO:       last: 95.01     max: 95.19      epoch_max: 2
+Train meta epoch: 5
+Epoch: 5.0       train loss: 0.0724, lr=0.000181
+Epoch: 5.1       train loss: 0.0717, lr=0.000181
+Epoch: 5.2       train loss: 0.0715, lr=0.000181
+Epoch: 5.3       train loss: 0.0723, lr=0.000181
+Epoch: 5.4       train loss: 0.0700, lr=0.000181
+Epoch: 5.5       train loss: 0.0690, lr=0.000181
+Epoch: 5.6       train loss: 0.0683, lr=0.000181
+Epoch: 5.7       train loss: 0.0680, lr=0.000181
+
+Compute loss and scores on test set:
+Epoch: 5         test_loss: 214.9159 and 5.90 fps
+Heights/Widths [64, 32, 16] [64, 32, 16]
+DET_AUROC:       last: 92.68     max: 92.68      epoch_max: 5
+SEG_AUROC:       last: 98.87     max: 98.87      epoch_max: 5
+Saving weights to mvtec_wide_resnet50_2_freia-cflow_pl3_cb8_inp512_run0_screw_20
+SEG_AUPRO:       last: 95.45     max: 95.45      epoch_max: 5
+Train meta epoch: 6
+Epoch: 6.0       train loss: 0.0675, lr=0.000173
+Epoch: 6.1       train loss: 0.0661, lr=0.000173
+Epoch: 6.2       train loss: 0.0664, lr=0.000173
+Epoch: 6.3       train loss: 0.0656, lr=0.000173
+Epoch: 6.4       train loss: 0.0656, lr=0.000173
+Epoch: 6.5       train loss: 0.0644, lr=0.000173
+Epoch: 6.6       train loss: 0.0647, lr=0.000173
+Epoch: 6.7       train loss: 0.0640, lr=0.000173
+
+Compute loss and scores on test set:
+Epoch: 6         test_loss: 1383.2930 and 5.86 fps
+Heights/Widths [64, 32, 16] [64, 32, 16]
+DET_AUROC:       last: 89.59     max: 92.68      epoch_max: 5
+SEG_AUROC:       last: 98.85     max: 98.87      epoch_max: 5
+SEG_AUPRO:       last: 95.38     max: 95.45      epoch_max: 5
+Train meta epoch: 7
+Epoch: 7.0       train loss: 0.0629, lr=0.000164
+Epoch: 7.1       train loss: 0.0630, lr=0.000164
+Epoch: 7.2       train loss: 0.0619, lr=0.000164
+Epoch: 7.3       train loss: 0.0627, lr=0.000164
+Epoch: 7.4       train loss: 0.0617, lr=0.000164
+Epoch: 7.5       train loss: 0.0616, lr=0.000164
+Epoch: 7.6       train loss: 0.0606, lr=0.000164
+Epoch: 7.7       train loss: 0.0606, lr=0.000164
+
+Compute loss and scores on test set:
+Epoch: 7         test_loss: 14245.4326 and 5.92 fps
+Heights/Widths [64, 32, 16] [64, 32, 16]
+DET_AUROC:       last: 90.96     max: 92.68      epoch_max: 5
+SEG_AUROC:       last: 98.81     max: 98.87      epoch_max: 5
+SEG_AUPRO:       last: 95.15     max: 95.45      epoch_max: 5
+Train meta epoch: 8
+Epoch: 8.0       train loss: 0.0594, lr=0.000154
+Epoch: 8.1       train loss: 0.0596, lr=0.000154
+Epoch: 8.2       train loss: 0.0593, lr=0.000154
+Epoch: 8.3       train loss: 0.0590, lr=0.000154
+Epoch: 8.4       train loss: 0.0588, lr=0.000154
+Epoch: 8.5       train loss: 0.0597, lr=0.000154
+Epoch: 8.6       train loss: 0.0586, lr=0.000154
+Epoch: 8.7       train loss: 0.0588, lr=0.000154
+
+Compute loss and scores on test set:
+Epoch: 8         test_loss: 58316.2539 and 5.87 fps
+Heights/Widths [64, 32, 16] [64, 32, 16]
+DET_AUROC:       last: 90.72     max: 92.68      epoch_max: 5
+SEG_AUROC:       last: 98.84     max: 98.87      epoch_max: 5
+SEG_AUPRO:       last: 95.23     max: 95.45      epoch_max: 5
+Train meta epoch: 9
+Epoch: 9.0       train loss: 0.0569, lr=0.000143
+Epoch: 9.1       train loss: 0.0573, lr=0.000143
+Epoch: 9.2       train loss: 0.0567, lr=0.000143
+Epoch: 9.3       train loss: 0.0568, lr=0.000143
+Epoch: 9.4       train loss: 0.0569, lr=0.000143
+Epoch: 9.5       train loss: 0.0566, lr=0.000143
+Epoch: 9.6       train loss: 0.0566, lr=0.000143
+Epoch: 9.7       train loss: 0.0560, lr=0.000143
+
+Compute loss and scores on test set:
+Epoch: 9         test_loss: 215096.3290 and 5.83 fps
+Heights/Widths [64, 32, 16] [64, 32, 16]
+DET_AUROC:       last: 90.92     max: 92.68      epoch_max: 5
+SEG_AUROC:       last: 98.78     max: 98.87      epoch_max: 5
+SEG_AUPRO:       last: 95.11     max: 95.45      epoch_max: 5
+Train meta epoch: 10
+Epoch: 10.0      train loss: 0.0555, lr=0.000131
+Epoch: 10.1      train loss: 0.0548, lr=0.000131
+Epoch: 10.2      train loss: 0.0556, lr=0.000131
+Epoch: 10.3      train loss: 0.0551, lr=0.000131
+Epoch: 10.4      train loss: 0.0546, lr=0.000131
+Epoch: 10.5      train loss: 0.0553, lr=0.000131
+Epoch: 10.6      train loss: 0.0543, lr=0.000131
+Epoch: 10.7      train loss: 0.0603, lr=0.000131
+
+Compute loss and scores on test set:
+Epoch: 10        test_loss: 233138.0887 and 5.93 fps
+Heights/Widths [64, 32, 16] [64, 32, 16]
+DET_AUROC:       last: 90.98     max: 92.68      epoch_max: 5
+SEG_AUROC:       last: 98.89     max: 98.89      epoch_max: 10
+Saving weights to mvtec_wide_resnet50_2_freia-cflow_pl3_cb8_inp512_run0_screw_2022-06-23-17:09:22.pt
+SEG_AUPRO:       last: 95.45     max: 95.45      epoch_max: 5
+Train meta epoch: 11
+Epoch: 11.0      train loss: 0.2305, lr=0.000119
+Epoch: 11.1      train loss: 0.0531, lr=0.000119
+Epoch: 11.2      train loss: 0.0530, lr=0.000119
+Epoch: 11.3      train loss: 0.0534, lr=0.000119
+Epoch: 11.4      train loss: 0.0529, lr=0.000119
+Epoch: 11.5      train loss: 0.0529, lr=0.000119
+Epoch: 11.6      train loss: 0.0523, lr=0.000119
+Epoch: 11.7      train loss: 1819.4524, lr=0.000119
+
+Compute loss and scores on test set:
+Epoch: 11        test_loss: 205585.7393 and 5.83 fps
+Heights/Widths [64, 32, 16] [64, 32, 16]
+DET_AUROC:       last: 90.72     max: 92.68      epoch_max: 5
+SEG_AUROC:       last: 98.81     max: 98.89      epoch_max: 10
+SEG_AUPRO:       last: 95.28     max: 95.45      epoch_max: 5
+Train meta epoch: 12
+Epoch: 12.0      train loss: 410.9328, lr=0.000106
+Epoch: 12.1      train loss: 0.0517, lr=0.000106
+Epoch: 12.2      train loss: 20.4351, lr=0.000106
+Epoch: 12.3      train loss: 0.0509, lr=0.000106
+Epoch: 12.4      train loss: 0.0512, lr=0.000106
+Epoch: 12.5      train loss: 0.0517, lr=0.000106
+Epoch: 12.6      train loss: 0.0509, lr=0.000106
+Epoch: 12.7      train loss: 0.0512, lr=0.000106
+
+Compute loss and scores on test set:
+Epoch: 12        test_loss: 918402.3928 and 5.78 fps
+Heights/Widths [64, 32, 16] [64, 32, 16]
+DET_AUROC:       last: 89.67     max: 92.68      epoch_max: 5
+SEG_AUROC:       last: 98.78     max: 98.89      epoch_max: 10
+SEG_AUPRO:       last: 95.14     max: 95.45      epoch_max: 5
+Train meta epoch: 13
+Epoch: 13.0      train loss: 0.0495, lr=0.000094
+Epoch: 13.1      train loss: 0.0501, lr=0.000094
+Epoch: 13.2      train loss: 0.0497, lr=0.000094
+Epoch: 13.3      train loss: 0.0502, lr=0.000094
+Epoch: 13.4      train loss: 0.0496, lr=0.000094
+Epoch: 13.5      train loss: 14.8800, lr=0.000094
+Epoch: 13.6      train loss: 0.0493, lr=0.000094
+Epoch: 13.7      train loss: 0.0497, lr=0.000094
+
+Compute loss and scores on test set:
+Epoch: 13        test_loss: 855922.7092 and 5.88 fps
+Heights/Widths [64, 32, 16] [64, 32, 16]
+DET_AUROC:       last: 93.03     max: 93.03      epoch_max: 13
+SEG_AUROC:       last: 98.86     max: 98.89      epoch_max: 10
+SEG_AUPRO:       last: 95.34     max: 95.45      epoch_max: 5
+Train meta epoch: 14
+Epoch: 14.0      train loss: 0.0484, lr=0.000081
+Epoch: 14.1      train loss: 0.0485, lr=0.000081
+Epoch: 14.2      train loss: 0.0483, lr=0.000081
+Epoch: 14.3      train loss: 0.0486, lr=0.000081
+Epoch: 14.4      train loss: 0.0486, lr=0.000081
+Epoch: 14.5      train loss: 0.0481, lr=0.000081
+Epoch: 14.6      train loss: 0.0485, lr=0.000081
+Epoch: 14.7      train loss: 0.0489, lr=0.000081
+
+Compute loss and scores on test set:
+Epoch: 14        test_loss: 775307.9637 and 5.75 fps
+Heights/Widths [64, 32, 16] [64, 32, 16]
+DET_AUROC:       last: 87.80     max: 93.03      epoch_max: 13
+SEG_AUROC:       last: 98.73     max: 98.89      epoch_max: 10
+SEG_AUPRO:       last: 95.10     max: 95.45      epoch_max: 5
+Train meta epoch: 15
+Epoch: 15.0      train loss: 0.0471, lr=0.000069
+Epoch: 15.1      train loss: 0.0473, lr=0.000069
+Epoch: 15.2      train loss: 0.0475, lr=0.000069
+Epoch: 15.3      train loss: 0.0470, lr=0.000069
+Epoch: 15.4      train loss: 0.0476, lr=0.000069
+Epoch: 15.5      train loss: 0.0469, lr=0.000069
+Epoch: 15.6      train loss: 0.0468, lr=0.000069
+Epoch: 15.7      train loss: 0.0466, lr=0.000069
+
+Compute loss and scores on test set:
+Epoch: 15        test_loss: 1661981.4563 and 5.86 fps
+Heights/Widths [64, 32, 16] [64, 32, 16]
+DET_AUROC:       last: 90.00     max: 93.03      epoch_max: 13
+SEG_AUROC:       last: 98.78     max: 98.89      epoch_max: 10
+SEG_AUPRO:       last: 95.23     max: 95.45      epoch_max: 5
+Train meta epoch: 16
+Epoch: 16.0      train loss: 0.0457, lr=0.000058
+Epoch: 16.1      train loss: 0.0459, lr=0.000058
+Epoch: 16.2      train loss: 0.0458, lr=0.000058
+Epoch: 16.3      train loss: 0.0457, lr=0.000058
+Epoch: 16.4      train loss: 36.2205, lr=0.000058
+Epoch: 16.5      train loss: 219.8315, lr=0.000058
+Epoch: 16.6      train loss: 0.0458, lr=0.000058
+Epoch: 16.7      train loss: 0.0454, lr=0.000058
+
+Compute loss and scores on test set:
+Epoch: 16        test_loss: 2215421.3648 and 5.54 fps
+Heights/Widths [64, 32, 16] [64, 32, 16]
+DET_AUROC:       last: 91.13     max: 93.03      epoch_max: 13
+SEG_AUROC:       last: 98.82     max: 98.89      epoch_max: 10
+SEG_AUPRO:       last: 95.31     max: 95.45      epoch_max: 5
+Train meta epoch: 17
+Epoch: 17.0      train loss: 0.0444, lr=0.000047
+Epoch: 17.1      train loss: 0.0445, lr=0.000047
+Epoch: 17.2      train loss: 0.0445, lr=0.000047
+Epoch: 17.3      train loss: 0.0447, lr=0.000047
+Epoch: 17.4      train loss: 0.0449, lr=0.000047
+Epoch: 17.5      train loss: 0.0444, lr=0.000047
+Epoch: 17.6      train loss: 0.0450, lr=0.000047
+Epoch: 17.7      train loss: 0.0446, lr=0.000047
+
+Compute loss and scores on test set:
+Epoch: 17        test_loss: 2660196.1602 and 5.89 fps
+Heights/Widths [64, 32, 16] [64, 32, 16]
+DET_AUROC:       last: 91.23     max: 93.03      epoch_max: 13
+SEG_AUROC:       last: 98.82     max: 98.89      epoch_max: 10
+SEG_AUPRO:       last: 95.29     max: 95.45      epoch_max: 5
+Train meta epoch: 18
+Epoch: 18.0      train loss: 0.0438, lr=0.000036
+Epoch: 18.1      train loss: 0.0436, lr=0.000036
+Epoch: 18.2      train loss: 1.7226, lr=0.000036
+Epoch: 18.3      train loss: 0.0434, lr=0.000036
+Epoch: 18.4      train loss: 0.0433, lr=0.000036
+Epoch: 18.5      train loss: 181.8807, lr=0.000036
+Epoch: 18.6      train loss: 453.3021, lr=0.000036
+Epoch: 18.7      train loss: 1176.5595, lr=0.000036
+
+Compute loss and scores on test set:
+Epoch: 18        test_loss: 2755612.6023 and 5.83 fps
+Heights/Widths [64, 32, 16] [64, 32, 16]
+DET_AUROC:       last: 90.37     max: 93.03      epoch_max: 13
+SEG_AUROC:       last: 98.78     max: 98.89      epoch_max: 10
+SEG_AUPRO:       last: 95.18     max: 95.45      epoch_max: 5
+Train meta epoch: 19
+Epoch: 19.0      train loss: 0.0428, lr=0.000027
+Epoch: 19.1      train loss: 1640.9800, lr=0.000027
+Epoch: 19.2      train loss: 336.0584, lr=0.000027
+Epoch: 19.3      train loss: 0.0427, lr=0.000027
+Epoch: 19.4      train loss: 0.0426, lr=0.000027
+Epoch: 19.5      train loss: 0.0426, lr=0.000027
+Epoch: 19.6      train loss: 0.0425, lr=0.000027
+Epoch: 19.7      train loss: 0.0427, lr=0.000027
+
+Compute loss and scores on test set:
+Epoch: 19        test_loss: 2453887.5466 and 5.88 fps
+Heights/Widths [64, 32, 16] [64, 32, 16]
+DET_AUROC:       last: 90.18     max: 93.03      epoch_max: 13
+SEG_AUROC:       last: 98.78     max: 98.89      epoch_max: 10
+SEG_AUPRO:       last: 95.15     max: 95.45      epoch_max: 5
+Train meta epoch: 20
+Epoch: 20.0      train loss: 0.0424, lr=0.000019
+Epoch: 20.1      train loss: 0.0422, lr=0.000019
+Epoch: 20.2      train loss: 0.0421, lr=0.000019
+Epoch: 20.3      train loss: 0.0422, lr=0.000019
+Epoch: 20.4      train loss: 0.0421, lr=0.000019
+Epoch: 20.5      train loss: 0.0420, lr=0.000019
+Epoch: 20.6      train loss: 0.0421, lr=0.000019
+Epoch: 20.7      train loss: 0.0461, lr=0.000019
+
+Compute loss and scores on test set:
+Epoch: 20        test_loss: 2830247.0387 and 5.88 fps
+Heights/Widths [64, 32, 16] [64, 32, 16]
+DET_AUROC:       last: 90.59     max: 93.03      epoch_max: 13
+SEG_AUROC:       last: 98.78     max: 98.89      epoch_max: 10
+SEG_AUPRO:       last: 95.11     max: 95.45      epoch_max: 5
+Train meta epoch: 21
+Epoch: 21.0      train loss: 2011.5873, lr=0.000013
+Epoch: 21.1      train loss: 0.0417, lr=0.000013
+Epoch: 21.2      train loss: 0.0416, lr=0.000013
+Epoch: 21.3      train loss: 1320.2769, lr=0.000013
+Epoch: 21.4      train loss: 472.5570, lr=0.000013
+Epoch: 21.5      train loss: 0.0416, lr=0.000013
+Epoch: 21.6      train loss: 140.3428, lr=0.000013
+Epoch: 21.7      train loss: 0.0415, lr=0.000013
+
+Compute loss and scores on test set:
+Epoch: 21        test_loss: 2379416.1281 and 5.81 fps
+Heights/Widths [64, 32, 16] [64, 32, 16]
+DET_AUROC:       last: 89.51     max: 93.03      epoch_max: 13
+SEG_AUROC:       last: 98.76     max: 98.89      epoch_max: 10
+SEG_AUPRO:       last: 95.07     max: 95.45      epoch_max: 5
+Train meta epoch: 22
+Epoch: 22.0      train loss: 0.0414, lr=0.000007
+Epoch: 22.1      train loss: 0.0413, lr=0.000007
+Epoch: 22.2      train loss: 165.3020, lr=0.000007
+Epoch: 22.3      train loss: 0.0414, lr=0.000007
+Epoch: 22.4      train loss: 464.6275, lr=0.000007
+Epoch: 22.5      train loss: 0.0414, lr=0.000007
+Epoch: 22.6      train loss: 0.0413, lr=0.000007
+Epoch: 22.7      train loss: 9176.6809, lr=0.000007
+
+Compute loss and scores on test set:
+Epoch: 22        test_loss: 2182552.1251 and 5.81 fps
+Heights/Widths [64, 32, 16] [64, 32, 16]
+DET_AUROC:       last: 90.41     max: 93.03      epoch_max: 13
+SEG_AUROC:       last: 98.77     max: 98.89      epoch_max: 10
+SEG_AUPRO:       last: 95.08     max: 95.45      epoch_max: 5
+Train meta epoch: 23
+Epoch: 23.0      train loss: 0.0412, lr=0.000003
+Epoch: 23.1      train loss: 0.0412, lr=0.000003
+Epoch: 23.2      train loss: 0.0412, lr=0.000003
+Epoch: 23.3      train loss: 509.8541, lr=0.000003
+Epoch: 23.4      train loss: 0.0412, lr=0.000003
+Epoch: 23.5      train loss: 143.0944, lr=0.000003
+Epoch: 23.6      train loss: 848.9042, lr=0.000003
+Epoch: 23.7      train loss: 712.0675, lr=0.000003
+
+Compute loss and scores on test set:
+Epoch: 23        test_loss: 2109765.6401 and 5.91 fps
+Heights/Widths [64, 32, 16] [64, 32, 16]
+DET_AUROC:       last: 90.92     max: 93.03      epoch_max: 13
+SEG_AUROC:       last: 98.77     max: 98.89      epoch_max: 10
+SEG_AUPRO:       last: 95.07     max: 95.45      epoch_max: 5
+Train meta epoch: 24
+Epoch: 24.0      train loss: 0.0411, lr=0.000001
+Epoch: 24.1      train loss: 0.0410, lr=0.000001
+Epoch: 24.2      train loss: 5615.9543, lr=0.000001
+Epoch: 24.3      train loss: 36.0969, lr=0.000001
+Epoch: 24.4      train loss: 0.0411, lr=0.000001
+Epoch: 24.5      train loss: 0.0411, lr=0.000001
+Epoch: 24.6      train loss: 0.0411, lr=0.000001
+Epoch: 24.7      train loss: 0.0410, lr=0.000001
+
+Compute loss and scores on test set:
+Epoch: 24        test_loss: 2125994.6509 and 5.85 fps
+Heights/Widths [64, 32, 16] [64, 32, 16]
+DET_AUROC:       last: 91.13     max: 93.03      epoch_max: 13
+SEG_AUROC:       last: 98.77     max: 98.89      epoch_max: 10
+SEG_AUPRO:       last: 95.08     max: 95.45      epoch_max: 5
