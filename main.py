@@ -26,7 +26,7 @@ def main(c):
     # image
     if ('vit' in c.enc_arch) or ('efficient' in c.enc_arch):
         encoder = timm.create_model(c.enc_arch, pretrained=True)
-        arch_config = resolve_data_config({}, model=encoder)
+        arch_config = resolve_data_config({}, model=encoder)  # 加载timm库中预训练模型的config
         c.norm_mean, c.norm_std = list(arch_config['mean']), list(arch_config['mean'])
         c.img_size = arch_config['input_size'][1:]  # HxW format
         c.crp_size = arch_config['input_size'][1:]  # HxW format
